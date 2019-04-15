@@ -1,0 +1,83 @@
+
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+#cabessa {
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    width: 20%;
+    height: 40%;
+    background-color: grey;
+}
+
+#lanterna {
+    border-radius: 2%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 25vh;
+    background-color: grey;
+}
+
+#on_off {
+    padding-left: 30%;
+    height: 30%;
+    display: flex;
+}
+
+
+#barra {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10%;
+    width: 8%;
+    height: 20%;
+    align-self: flex-start;
+    border: solid black 3px;
+}
+
+p {
+    position: absolute;
+    width: 3.5%;
+    z-index: 2;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 60%;
+}
+
+
+#carga {
+    position: relative;
+    border-radius: 10%;
+    width: 100%;
+    background-color: green;
+    border: solid white 2px;
+    height: 100%;
+}
+
+
+#liga, #desliga {
+    border-radius: 20%;
+    border: solid grey 1px;
+    font-weight: bolder;
+}
+
+#recharge input {
+    width: 10%;
+}
