@@ -25,7 +25,9 @@ function clicar () {
     let filho = event.target.parentNode;
     lista.removeChild(filho);
     console.log(filho);
-    tarefas--;
+    if (tarefas > 0) {        
+        tarefas --;
+    }
     faltam.innerText = "Tarefa(s) restante(s): " + tarefas;
 }
 
@@ -35,7 +37,9 @@ function clicar2 () {
     if (event.target.checked) {
         event.target.parentNode.innerHTML = texte + " checked>"   +  "<strike>" + tmp; 
         event.target.checked = true;
-        tarefas --;
+        if (tarefas > 0) {        
+            tarefas --;
+        }
     } else {
         event.target.parentNode.innerHTML = texte + ">" + tmp;
         tarefas ++; 
