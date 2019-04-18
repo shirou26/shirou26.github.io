@@ -2,6 +2,10 @@ h1, #inserir{
     text-align: center;
 }
 
+h3 {
+    margin: 10px 0 0 0;
+}
+
 #button {
     border-radius: 20%;
     font-weight: bolder;
@@ -10,12 +14,15 @@ h1, #inserir{
 
 
 li button {
+    width: 5px;
+    height: 18px;
     border: solide black 1px;
     font-weight: bolder;
-    background-color: white;
+    background-color: red;
     color: red;
     position: relative;
-    right: 5px;
+    right: 3px;
+    bottom: 6px;
     border-radius: 30%;
 
 }
@@ -31,4 +38,9 @@ ul {
 
 li {
     margin: 0 0 8px 0;
+}
+
+li #checar {
+    position: relative;
+    right: 20px;
 }
