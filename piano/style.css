@@ -1,0 +1,49 @@
+
+.piano {
+  height: 200px;
+  display: flex;
+}
+
+.white-key {
+  border: solid black 1px;
+  width: 50px;
+  height: 150px;
+  
+}
+
+.black-key {
+  position: absolute;
+  background-color: black;
+  border: solid black 2px;
+  width: 30px;
+  height: 110px;
+}
+
+.Db4-key {
+  left: 35px;
+}
+
+
+.Eb4-key {
+  left: 85px;
+}
+
+.Gb4-key {
+  left: 185px;
+}
+
+.Ab4-key {
+  left: 235px;
+}
+
+.Bb4-key {
+  left: 285px;
+}
+
+.Db5-key {
+  left: 385px;
+}
+
+.Eb5-key {
+  left: 435px;
+}
