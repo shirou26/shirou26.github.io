@@ -1,9 +1,23 @@
-h1, #inserir{
-    text-align: center;
+
+
+
+h1 {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#inserir {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    padding-left: 2%;
 }
 
 h3 {
-    margin: 10px 0 0 0;
+    margin: 10px 0 15px 0;
 }
 
 #button {
@@ -13,34 +27,49 @@ h3 {
 }
 
 
+#lista {
+    margin: auto;
+    background-color: lightgray;
+    margin-right: 50%;
+}
+
+
 li button {
-    width: 5px;
-    height: 18px;
-    border: solide black 1px;
+    width: 10px;
+    height: 13px;
     font-weight: bolder;
     background-color: red;
     color: red;
-    position: relative;
-    right: 3px;
-    bottom: 6px;
     border-radius: 30%;
-
+    position: absolute;
+    right: 0;
+    margin-right: 3px;
 }
 
 ul {
     font-size: 12px;
-    position: relative;
     right: 30px;
     top: 30px;
     bottom: 90px;
     list-style-type: none;
+
 }
 
 li {
-    margin: 0 0 8px 0;
+    border-bottom: solid grey 2px;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding-left: 3%;
+    padding-right: 10px;
+    width: 90%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
 }
 
-li #checar {
-    position: relative;
-    right: 20px;
+li input {
+    position: absolute;
+    align-self: center;
+    left: -2px;
 }
