@@ -1,0 +1,88 @@
+body {
+    width: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+ 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number], span{
+    width: 35px;
+    background-color: black;
+    font-family: 'digital-7';
+    color: greenyellow;
+    text-align: center;
+} 
+
+.botao {
+    text-align: center;
+} 
+
+.botao button {
+    margin:0 auto;
+    display:block;
+    font-size: 140px;
+    border: none;
+    margin-top: 5%;
+    background-color: black;
+}
+
+.fa-play-circle {
+    color: green;
+}
+
+.fa-pause-circle {
+    color: red;
+}
+
+.fa-history{
+    visibility: hidden;
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin-top: 5%;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+}
+
+.horario {
+    margin-top: 5%;
+}
+
+.relogio {
+    visibility: visible;
+    font-size: 10vh;
+    margin: auto;
+    width: 60%;
+}
+
+p {
+    visibility: hidden;
+}
+
+h1 {
+    margin-top: 5%;
+    color: lightgray;
+    font-family: "digital-7";
+    font-size: 80px;
+}
+
+@font-face{
+    font-family:'digital-7';
+    src: url('digital-7.ttf');
+   }
+
