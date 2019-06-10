@@ -1,0 +1,83 @@
+[
+  {
+    "nome" : "CAMISETA MESCLA",
+    "precos" : 28.00,
+    "imagem" : "img_2.png",
+    "tamanhos" : ["M","G","40","42"],
+    "cores" : ["cinza"],
+    "parcelas" : 3,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "SAIA EM COURO",
+    "precos" : 398.00,
+    "imagem" : "img_3.png",
+    "tamanhos" : ["P","M","36","38"],
+    "cores" : ["preto"],
+    "parcelas" : 5,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "CARDIGAN TIGRE",
+    "precos" : 398.00,
+    "imagem" : "img_4.png",
+    "tamanhos" : ["M","G","40","46"],
+    "cores" : ["laranja","preto"],
+    "parcelas" : 5,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "CARDIGAN OFF WHITE",
+    "precos" : 99.90,
+    "imagem" : "img_5.png",
+    "tamanhos" : ["P","36"],
+    "cores" : ["branco"],
+    "parcelas" : 3,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "BODY LEOPARDO",
+    "precos" : 129.90,
+    "imagem" : "img_6.png",
+    "tamanhos" : ["U","G","36","44"],
+    "cores" : ["amarelo","preto"],
+    "parcelas" : 3,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "CASACO PELOS",
+    "precos" : 398.00,
+    "imagem" : "img_7.png",
+    "tamanhos" : ["GG","46"],
+    "cores" : ["rosa"],
+    "parcelas" : 5,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "CROPPED STRIPES",
+    "precos" : 120.00,
+    "imagem" : "img_8.png",
+    "tamanhos" : ["P","G","36","38","46"],
+    "cores" : ["azul","amarelo","laranja"],
+    "parcelas" : 3,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "CAMISA TRANSPARENTE",
+    "precos" : 398.00,
+    "imagem" : "img_9.png",
+    "tamanhos" : ["PP","P","36","38"],
+    "cores" : ["preto"],
+    "parcelas" : 5,
+    "comprar" : "COMPRAR"
+  },
+  {
+    "nome" : "POCHETE CLUTCH",
+    "precos" : 99.00,
+    "imagem" : "img_10.png",
+    "tamanhos" : ["P","M","36","40","42"],
+    "cores" : ["preto"],
+    "parcelas" : 3,
+    "comprar" : "COMPRAR"
+  }
+]

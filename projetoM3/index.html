@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>M3 teste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+<header class="topoDaPagina">
+    <img src="imagens\logo-m3.png" alt="logoM3">
+    <i class="fa fa-shopping-bag" aria-hidden="true">
+        <p></p>
+    </i>
+</header>
+    <div id="divisor">
+    </div>
+<header class="menuOrdenar">
+    <h1>Blusas</h1>
+    <label class="selecionar">
+        <select name="Ordenar por:">
+            <option class="naoMostrar" value="Ordenar Por">Ordenar por:   <i class="fa fa-angle-down" aria-hidden="true"></i></option>
+            <option class="recentes" value="Mais Recentes">Mais recentes</option>
+            <option value="Menor Preço">Menor preço </option>
+            <option value="Maior Preço">Maior preço</option>
+        </select>
+    </label>
+</header>
+
+<div class="conteudoPrincipal">
+
+    <aside>
+        <h5>CORES</h5>
+        <div class="menuCores">
+        </div>
+        <p id="mostrarMais">Veja todas as cores <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+        <br>
+
+        <h5 class="titulo">TAMANHOS</h5>
+        <div class="menuTamanhos">
+        </div>
+
+        <h5 class="titulo">FAIXA DE PREÇO</h5>
+        <div class="menuPrecos">
+        </div>
+    </aside>
+
+    <main id="sesaoDosProdutos">
+        <p id="semProdutos" class="esconder">Não foi possível encontrar produto(s)</p>
+    </main>
+    
+</div>
+<div class="sesaoCarregar">
+    <span class="espaco"></span>
+    <span id="carregarMais" class="mostrar">
+        <button >CARREGAR MAIS</button>
+    </span>      
+</div>
+
+<footer>
+    <p>Agência M3 - Agência de Performance Digital</p>
+</footer>
+
+    <script src="https://use.fontawesome.com/b646067782.js"></script>
+    <script src="criarMenu.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html
